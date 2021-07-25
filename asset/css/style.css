@@ -779,7 +779,7 @@ header {
 /* Show scroll */
 
 .show__scroll {
-    bottom: 5rem;
+    bottom: 19rem;
 }
 
 
@@ -953,7 +953,7 @@ header {
         grid-template-columns: repeat(3, 1fr);
     }
     .footer__bg {
-        padding: 3.5rem 0 3rem;
+        padding: 3rem 0 2rem;
     }
     .footer__links {
         flex-direction: row;

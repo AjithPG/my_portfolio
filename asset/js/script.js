@@ -74,6 +74,23 @@ tabs.forEach(tab=>{
     })
 })
 
+
+/*SCROLL TO TOP*/
+
+
+const scrollToTop = document.getElementById("scroll-up");
+
+
+function scrollTopButton(e){
+   
+    e.preventDefault();
+    window.scrollTo({top:0,behavior:'smooth'});
+
+}
+
+
+scrollToTop.addEventListener('click',scrollTopButton);
+
 /*==================== SERVICES MODAL ====================*/
 
 
