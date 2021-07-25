@@ -450,7 +450,7 @@ header {
 /*==================== SKILLS ====================*/
 
 .skills__container {
-    row-gap: 0;
+    row-gap: 2rem;
 }
 
 .skills__header {
