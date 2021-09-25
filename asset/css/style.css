@@ -24,6 +24,8 @@
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
     --card-border-color: #ebedf5;
+    --card-title:hsl(var(--hue-color), 8%, 15%);
+    --card-desc: hsl(var(--hue-color), 8%, 45%);
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -81,6 +83,9 @@ body.dark-theme {
     --container-color: hsl(var(--hue-color), 29%, 16%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+    --card-title: color:#fff;
+    --card-desc: color:#fff;
+    --card-border-color:hsl(var(--hue-color), 8%, 95%);
 }
 
 
@@ -667,6 +672,7 @@ header {
     border: 1px solid var(--card-border-color);
     border-radius: 12px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
+    background-color: var(--main-color);
 }
 
 .portfolio__data {
@@ -683,12 +689,15 @@ header {
     font-size: var(--h3-font-size);
     line-height: 1.75rem;
     margin-bottom: var(--mb-0-5);
+    color:var(--card-title);
+ 
 }
 
 .portfolio__description {
     font-size: .875rem;
     line-height: 1.5rem;
     margin-bottom: var(--mb-0-75);
+    color:var(--card-desc);
 }
 
 .portfolio__button {
