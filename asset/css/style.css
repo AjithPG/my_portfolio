@@ -26,6 +26,7 @@
     --card-border-color: #ebedf5;
     --card-title:hsl(var(--hue-color), 8%, 15%);
     --card-desc: hsl(var(--hue-color), 8%, 45%);
+    --footer-color:#7c3aed;
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -87,6 +88,7 @@ body.dark-theme {
     --card-title: color:#fff;
     --card-desc: color:#fff;
     --card-border-color:hsl(var(--hue-color), 8%, 95%);
+    --footer-color: hsl(var(--hue-color), 30%, 8%);
 }
 
 
@@ -734,7 +736,7 @@ header {
 }
 
 .footer__bg {
-    background-color: #7c3aed;
+    background-color: var(--footer-color);
     padding: 2rem 0 1rem;
 }
 
