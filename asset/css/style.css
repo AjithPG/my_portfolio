@@ -37,6 +37,7 @@
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
     /*========== Font weight ==========*/
+    
     --font-medium: 500;
     --font-semi-bold: 600;
     /*========== Margenes Bottom ==========*/
@@ -503,12 +504,12 @@ header {
 }
 
 .skills_name {
-    font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
-    background-color: var(--first-color);
-    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(255 255 255/1);
+    color: #000;
     border-radius: 5px;
-    padding: .2rem .5rem;
+    padding: .4rem .8rem;
 }
 
 .skills__data {
@@ -551,7 +552,7 @@ header {
 .skill_icons {
     width: 85px;
     height: 85px;
-    background-color: #fff;
+    background-color: rgba(255,255,255/1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .20);
     border-radius: 50%;
     display: flex;
@@ -672,7 +673,7 @@ header {
     border: 1px solid var(--card-border-color);
     border-radius: 12px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 8%), 0 4px 8px rgb(0 0 0 / 4%);
-    background-color: var(--main-color);
+    background-color: rgb(255 255 255/1);
 }
 
 .portfolio__data {
@@ -733,7 +734,7 @@ header {
 }
 
 .footer__bg {
-    background-color: var(--first-color-second);
+    background-color: #7c3aed;
     padding: 2rem 0 1rem;
 }
 
